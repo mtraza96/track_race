@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.entry-page{
+  display: flex;
+    background-color:#fcf7f7;
+  height: 100vh;
+  
+  
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items: left;
+  background-color:#ccc;
+  margin: 20px;
+  border-radius: 1%;
+  padding-left: 10px;
+  
+}
+
+.input_Shwom{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  background-color:#fff;
+  width: 90%;
+  margin: 20px;
+  padding-top: 40px;
+  border-radius: 1%;
+  justify-content: space-between;  
+  column-gap: 500px;
+}
+
+input[type=text]{
+  border: none;
+  height: 30px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 150px 0;
+  
+  
+}
+
+
+.styled-table tbody tr {
+  background-color: #f2f2f2;
+  padding: 3px;
+}
+
+td {
+  padding: 10px 0;
+}
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  margin-bottom: 1%
+  
+  
+}
+.add_participant{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  line-height: 0%;
+  color: rgb(105, 104, 105);
+  margin-top: 0%;
+
+}
+
+.button {
+  background-color: hsl(0, 80%, 56%);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+    width: 110px;
+    margin-left: auto;
+    transform: skew(-20deg);
+  
+}
+.addButton{
+  background-color: hsl(0, 0%, 2%);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px;
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 2%;
+
+}
